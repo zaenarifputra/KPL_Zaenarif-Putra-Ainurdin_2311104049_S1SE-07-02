@@ -1,0 +1,14 @@
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\bin\Debug\net8.0\tpmodul3_2311104049.exe
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\bin\Debug\net8.0\tpmodul3_2311104049.deps.json
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\bin\Debug\net8.0\tpmodul3_2311104049.runtimeconfig.json
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\bin\Debug\net8.0\tpmodul3_2311104049.dll
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\bin\Debug\net8.0\tpmodul3_2311104049.pdb
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.dll
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\refint\tpmodul3_2311104049.dll
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.pdb
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.genruntimeconfig.cache
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\ref\tpmodul3_2311104049.dll
