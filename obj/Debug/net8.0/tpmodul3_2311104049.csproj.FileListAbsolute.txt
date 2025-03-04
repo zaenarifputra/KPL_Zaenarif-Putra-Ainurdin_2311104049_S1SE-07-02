@@ -12,3 +12,4 @@ C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\n
 C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.pdb
 C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\ref\tpmodul3_2311104049.dll
+C:\Users\LENOVO\source\repos\tpmodul3_2311104049\tpmodul3_2311104049\obj\Debug\net8.0\tpmodul3_2311104049.sourcelink.json
