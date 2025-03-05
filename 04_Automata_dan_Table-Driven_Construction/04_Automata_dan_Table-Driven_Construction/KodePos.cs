@@ -36,7 +36,7 @@ namespace Automata_dan_Table_Driven_Construction
                     return dataKodePos[i, 1];
                 }
             }
-            return "Data Kode Pos Tidak Ditemukan!!";
+            return "Data Yang Dicari Tidak Ditemukan!!";
         }
     }
 }
