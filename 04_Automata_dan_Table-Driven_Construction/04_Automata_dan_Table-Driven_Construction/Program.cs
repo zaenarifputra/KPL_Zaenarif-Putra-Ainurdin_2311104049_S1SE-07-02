@@ -4,28 +4,27 @@
 {
     static void Main(string[] args)
     {
-            KodePos kodePos = new KodePos();
-            Console.WriteLine("Menampilkan Data Kode Pos : ");
-            kodePos.MenampilkanSemuaKodePos();
+            KodePos kodePos = new KodePos(); // Membuat objek kode pos
+            Console.WriteLine("Menampilkan Data Kode Pos : "); // Menampilkan data kode pos
+            kodePos.MenampilkanSemuaKodePos(); // Menampilkan semua kode pos
             Console.WriteLine("");
 
 
-            DoorMachine pintu = new DoorMachine(); // Pintu awal terkunci
+            Console.WriteLine("Menampilkan System Pintu :");
+            DoorMachine pintu = new DoorMachine();
+            Console.WriteLine();
 
-            Console.WriteLine(); // Spasi untuk kejelasan output
+            pintu.BukaPintu();
+            Console.WriteLine($"Mengecek Pintu: {pintu.StatusPintu()}");
+            Console.WriteLine();
 
-            pintu.BukaPintu();   // Membuka pintu
-            pintu.StatusPintu(); // Mengecek status pintu
+            pintu.KunciPintu();
+            Console.WriteLine($"Mengecek Pintu: {pintu.StatusPintu()}");
+            Console.WriteLine();
 
-            Console.WriteLine(); // Spasi
-
-            pintu.KunciPintu();  // Mengunci pintu
-            pintu.StatusPintu(); // Mengecek status pintu
-
-            Console.WriteLine(); // Spasi
-
-            pintu.KunciPintu();  // Coba kunci lagi (sudah terkunci)
+            pintu.KunciPintu();  // Coba kunci lagi
             pintu.BukaPintu();   // Coba buka lagi
+
             Console.ReadLine();
         }
     }
