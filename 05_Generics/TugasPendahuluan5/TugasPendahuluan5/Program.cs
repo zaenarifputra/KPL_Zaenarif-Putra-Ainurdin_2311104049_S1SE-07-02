@@ -9,16 +9,6 @@ class HaloGeneric
     }
 }
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        HaloGeneric.SapaUser("Intan Payoo");
-        Console.ReadLine();
-    }
-}
-using System;
-
 class DataGeneric<T>
 {
     private T data;
@@ -36,8 +26,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        HaloGeneric.SapaUser("Zaenarif
+
         DataGeneric<string> myData = new DataGeneric<string>("2311104049");
         myData.PrintData();
+
         Console.ReadLine();
     }
 }
