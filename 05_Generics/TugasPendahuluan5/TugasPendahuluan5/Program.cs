@@ -26,7 +26,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        HaloGeneric.SapaUser("Zaenarif
+        HaloGeneric.SapaUser("Zaenarif");
 
         DataGeneric<string> myData = new DataGeneric<string>("2311104049");
         myData.PrintData();
