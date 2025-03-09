@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05BAFCC9-FD38-4CC1-8011-9B3B67AC6A25}</ProjectGuid>
+    <ProjectGuid>{F759AD47-4A8F-4F29-9576-44145EA660C0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>tjmodul3_2311104049</RootNamespace>
     <AssemblyName>tjmodul3_2311104049</AssemblyName>
