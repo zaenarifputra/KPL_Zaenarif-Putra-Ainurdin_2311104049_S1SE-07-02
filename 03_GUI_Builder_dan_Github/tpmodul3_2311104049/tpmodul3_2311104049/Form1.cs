@@ -24,17 +24,7 @@ namespace tpmodul3_2311104049
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            string namaPraktikan = txtInput.Text.Trim(); // Menghilangkan spasi ekstra di input
-
-            // Jika input sesuai dengan "NAMA_PRAKTIKAN"
-            if (namaPraktikan.Equals("NAMA_PRAKTIKAN", StringComparison.OrdinalIgnoreCase))
-            {
-                lblOutput.Text = $"Halo {namaPraktikan}";
-            }
-            else
-            {
-                lblOutput.Text = "Nama tidak dikenali.";
-            }
+           
         }
     }
 }
