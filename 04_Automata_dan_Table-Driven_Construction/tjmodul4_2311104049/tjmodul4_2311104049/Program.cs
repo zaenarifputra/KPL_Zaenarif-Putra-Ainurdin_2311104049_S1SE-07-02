@@ -17,17 +17,40 @@ namespace tjmodul4_2311104049
 
             Console.WriteLine("=== Selamat datang di program karakter game ===");
             Console.Write("Masukkan NIM Anda: ");
-            long nim = long.Parse(Console.ReadLine());
+            string input = Console.ReadLine();
+
+            if (!long.TryParse(input, out long nim))
+            {
+                Console.WriteLine("NIM tidak valid! Masukkan angka yang benar.");
+                return;
+            }
 
             Karakter karakter = new Karakter(nim);
 
-            // Simulasi perubahan state berdasarkan tombol yang ditekan
-            karakter.TekanTombolS(); // Jongkok
-            karakter.TekanTombolS(); // Tengkurap
-            karakter.TekanTombolW(); // Kembali Jongkok
-            karakter.TekanTombolW(); // Kembali Berdiri
-            karakter.TekanTombolW(); // Terbang
-            karakter.TekanTombolS(); // Kembali Berdiri
+            // Loop untuk menerima input pengguna
+            while (true)
+            {
+                Console.WriteLine("\nTekan W (naik), S (turun), atau X (keluar): ");
+                string perintah = Console.ReadLine().ToUpper();
+
+                if (perintah == "X")
+                {
+                    Console.WriteLine("Keluar dari program.");
+                    break;
+                }
+                else if (perintah == "W")
+                {
+                    karakter.TekanTombolW();
+                }
+                else if (perintah == "S")
+                {
+                    karakter.TekanTombolS();
+                }
+                else
+                {
+                    Console.WriteLine("Perintah tidak dikenali. Silakan tekan W, S, atau X.");
+                }
+            }
             Console.ReadLine();
         }
     }
