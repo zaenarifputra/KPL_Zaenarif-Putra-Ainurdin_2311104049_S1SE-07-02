@@ -26,5 +26,29 @@ namespace tpmodul3_2311104049
         {
            
         }
+
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnInput_Click_1(object sender, EventArgs e)
+        {
+            string namaPraktikan = txtInput.Text.Trim();
+
+            if (namaPraktikan.Equals("NAMA_PRAKTIKAN", StringComparison.OrdinalIgnoreCase))
+            {
+                lblOutput.Text = $"Halo {namaPraktikan}";
+            }
+            else
+            {
+                lblOutput.Text = "Nama tidak dikenali.";
+            }
+        }
     }
 }
