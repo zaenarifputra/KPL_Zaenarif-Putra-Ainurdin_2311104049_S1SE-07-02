@@ -28,43 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.input = new System.Windows.Forms.TextBox();
-            this.btnKirim = new System.Windows.Forms.Button();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.btnInput = new System.Windows.Forms.Button();
             this.lblOutput = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // input
+            // txtInput
             // 
-            this.input.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.input.Location = new System.Drawing.Point(92, 16);
-            this.input.Name = "input";
-            this.input.Size = new System.Drawing.Size(370, 26);
-            this.input.TabIndex = 0;
-            this.input.Text = "Nama_Praktikan";
-            this.input.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.input.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtInput.BackColor = System.Drawing.Color.DarkCyan;
+            this.txtInput.Location = new System.Drawing.Point(211, 24);
+            this.txtInput.Multiline = true;
+            this.txtInput.Name = "txtInput";
+            this.txtInput.Size = new System.Drawing.Size(389, 31);
+            this.txtInput.TabIndex = 0;
+            this.txtInput.Text = "Masukkan Inputan";
+            this.txtInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtInput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // btnKirim
+            // btnInput
             // 
-            this.btnKirim.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btnKirim.Location = new System.Drawing.Point(497, 12);
-            this.btnKirim.Name = "btnKirim";
-            this.btnKirim.Size = new System.Drawing.Size(82, 35);
-            this.btnKirim.TabIndex = 1;
-            this.btnKirim.Text = "Kirim";
-            this.btnKirim.UseVisualStyleBackColor = false;
-            this.btnKirim.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnInput.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnInput.Location = new System.Drawing.Point(340, 66);
+            this.btnInput.Name = "btnInput";
+            this.btnInput.Size = new System.Drawing.Size(128, 48);
+            this.btnInput.TabIndex = 1;
+            this.btnInput.Text = "Click";
+            this.btnInput.UseVisualStyleBackColor = false;
+            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
             // lblOutput
             // 
-            this.lblOutput.AutoSize = true;
-            this.lblOutput.BackColor = System.Drawing.Color.DarkCyan;
-            this.lblOutput.Location = new System.Drawing.Point(233, 101);
-            this.lblOutput.MaximumSize = new System.Drawing.Size(0, 50);
+            this.lblOutput.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.lblOutput.Location = new System.Drawing.Point(285, 127);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(55, 20);
+            this.lblOutput.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.lblOutput.Size = new System.Drawing.Size(240, 51);
             this.lblOutput.TabIndex = 2;
             this.lblOutput.Text = "output";
+            this.lblOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Form1
             // 
@@ -72,8 +73,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblOutput);
-            this.Controls.Add(this.btnKirim);
-            this.Controls.Add(this.input);
+            this.Controls.Add(this.btnInput);
+            this.Controls.Add(this.txtInput);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -83,8 +84,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox input;
-        private System.Windows.Forms.Button btnKirim;
+        private System.Windows.Forms.TextBox txtInput;
+        private System.Windows.Forms.Button btnInput;
         private System.Windows.Forms.Label lblOutput;
     }
 }
