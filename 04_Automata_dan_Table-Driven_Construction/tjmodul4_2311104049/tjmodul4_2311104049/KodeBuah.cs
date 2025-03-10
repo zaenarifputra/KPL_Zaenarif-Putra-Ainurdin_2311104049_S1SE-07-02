@@ -13,10 +13,10 @@ namespace tjmodul4_2311104049
             {"Durian", "L00"}, {"Anggur", "M00"}, {"Melon", "N00"},
             {"Semangka", "O00"}
         };
-
         public static string getKodeBuah(string buah)
         {
-            return KodeBuahDict.ContainsKey(buah) ? KodeBuahDict[buah] : "Kode buah tidak ditemukan";
+            return KodeBuahDict.ContainsKey(buah) ? KodeBuahDict[buah]
+                : "Kode buah tidak ditemukan";
         }
     }
 }
