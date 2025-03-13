@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJ_Modul5_2311104049_Zaenarif_Putra", "TJ_Modul5_2311104049_Zaenarif_Putra\TJ_Modul5_2311104049_Zaenarif_Putra.csproj", "{19F7F617-D427-4A83-A2CD-E4304DB5C517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F7F617-D427-4A83-A2CD-E4304DB5C517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F7F617-D427-4A83-A2CD-E4304DB5C517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F7F617-D427-4A83-A2CD-E4304DB5C517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F7F617-D427-4A83-A2CD-E4304DB5C517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D3ECC7D-804C-42B1-AF53-5F4EDCD26DF1}
+	EndGlobalSection
+EndGlobal
