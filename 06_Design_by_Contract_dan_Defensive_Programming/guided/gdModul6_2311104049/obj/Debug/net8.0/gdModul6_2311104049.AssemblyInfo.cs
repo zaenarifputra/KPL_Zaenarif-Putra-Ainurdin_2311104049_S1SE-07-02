@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("gdModul6_2311104049")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+141504e9db0dabe98e83be9ee39261d9666b3215")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5641d8676e0d77be2a718b0765521f36b7a3b4ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("gdModul6_2311104049")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gdModul6_2311104049")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
