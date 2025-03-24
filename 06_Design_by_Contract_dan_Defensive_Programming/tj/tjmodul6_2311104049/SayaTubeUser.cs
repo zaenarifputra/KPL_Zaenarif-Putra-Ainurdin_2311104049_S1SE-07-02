@@ -23,6 +23,9 @@ public class SayaTubeUser
         if (video == null)
             throw new ArgumentNullException("Video tidak boleh null");
 
+        if (video.PlayCount > int.MaxValue)
+            throw new ArgumentException("Play count video melebihi batas maksimum integer.");
+
         uploadedVideos.Add(video);
     }
 
@@ -39,7 +42,7 @@ public class SayaTubeUser
     public void PrintAllVideoPlaycount()
     {
         Console.WriteLine($"User: {username}");
-        for (int i = 0; i < uploadedVideos.Count && i < 8; i++) // Menampilkan max 8 video
+        for (int i = 0; i < uploadedVideos.Count && i < 8; i++) // Postcondition: maksimal 8 video
         {
             Console.WriteLine($"Video {i + 1} judul: {uploadedVideos[i].Title}");
         }

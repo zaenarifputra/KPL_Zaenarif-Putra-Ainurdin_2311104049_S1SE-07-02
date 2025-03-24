@@ -32,9 +32,19 @@ public class SayaTubeVideo
         if (increment < 0 || increment > 25000000)
             throw new ArgumentOutOfRangeException("Increment tidak valid, harus antara 0 - 25.000.000");
 
-        checked
+        try
         {
-            playCount += increment;
+            checked
+            {
+                if (playCount + increment > int.MaxValue)
+                    throw new OverflowException("Play count melebihi batas maksimum integer.");
+
+                playCount += increment;
+            }
+        }
+        catch (OverflowException e)
+        {
+            Console.WriteLine($"Error: {e.Message}");
         }
     }
 
