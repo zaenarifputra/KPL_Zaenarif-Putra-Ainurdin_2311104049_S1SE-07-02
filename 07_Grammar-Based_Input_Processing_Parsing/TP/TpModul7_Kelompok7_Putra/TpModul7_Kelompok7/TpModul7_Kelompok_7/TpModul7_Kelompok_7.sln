@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpModul7_Kelompok_7", "TpModul7_Kelompok_7\TpModul7_Kelompok_7.csproj", "{DA3AAAEB-D730-4C43-9069-77C8AF65E870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3AAAEB-D730-4C43-9069-77C8AF65E870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3AAAEB-D730-4C43-9069-77C8AF65E870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3AAAEB-D730-4C43-9069-77C8AF65E870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3AAAEB-D730-4C43-9069-77C8AF65E870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {050AF5E7-A543-4597-81AE-19DF0C424936}
+	EndGlobalSection
+EndGlobal
