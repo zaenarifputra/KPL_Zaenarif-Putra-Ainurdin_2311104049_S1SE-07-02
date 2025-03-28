@@ -1,31 +1,31 @@
 {
 	"courses": [
 		{
-			"code": "YIS",
+			"code": "CCK2KAB4",
 			"name": "Konstruksi Perangkat Lunak"
 		},
 		{
-			"code": "MSA",
+			"code": "CCK2HAB4",
 			"name": "Basis Data"
 		},
 		{
-			"code": "GFA",
+			"code": "CCK2GAB3",
 			"name": "Interaksi Manusia Komputer"
 		},
 		{
-			"code": "ADI",
+			"code": "CCK2JAC2",
 			"name": "Proyek Tingkat II"
 		},
 		{
-			"code": "GFA",
+			"code": "CCK1KAB3",
 			"name": "Rekayasa Kebutuhan Perangkat Lunak"
 		},
 		{
-			"code": "RAD",
+			"code": "CCK2CAB3",
 			"name": "Pemodelan Perangkat Lunak"
 		},
 		{
-			"code": "AAH",
+			"code": "CCK2FAB4",
 			"name": "Arsitektur Dan Desain Perangkat Lunak"
 		}
 	]

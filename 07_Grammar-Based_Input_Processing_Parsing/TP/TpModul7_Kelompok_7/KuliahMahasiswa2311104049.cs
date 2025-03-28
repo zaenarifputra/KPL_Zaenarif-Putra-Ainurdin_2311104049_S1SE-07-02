@@ -25,7 +25,7 @@ namespace TpModul7_Kelompok_7
         {
             try
             {
-                string filePath = "tp7_2_2311104045.json";
+                string filePath = "tp7_2_2311104049.json";
 
                 if (!File.Exists(filePath))
                 {
@@ -33,7 +33,6 @@ namespace TpModul7_Kelompok_7
                     Console.WriteLine("Lokasi pencarian: " + Path.GetFullPath(filePath));
                     return;
                 }
-
 
 
                 // Baca dan deserialize file JSON
