@@ -5,9 +5,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("=== [3] Menampilkan Parsing Glossary Item Mahasiswa ===");
-        var teamMembers = new GlossaryItem2311104049();
+        Console.WriteLine("=== [1] Menampilkan Parsing Data Mahasiswa ===");
+        var dataMahasiswa = new DataMahasiswa2311104049();
+        dataMahasiswa.ReadJSON();
+        Console.ReadLine();
+        Console.WriteLine();
+
+        Console.WriteLine("=== [2] Menampilkan Parsing Team Members Mahasiswa ===");
+        var teamMembers = new TeamMembers2311104049();
         teamMembers.ReadJSON();
+        Console.ReadLine();
+        Console.WriteLine();
+
+        Console.WriteLine("=== [3] Menampilkan Parsing Glossary Item Mahasiswa ===");
+        var glossaryItem = new GlossaryItem2311104049();  // Ganti variabel menjadi glossaryItem
+        glossaryItem.ReadJSON();
         Console.ReadLine();
     }
 }
