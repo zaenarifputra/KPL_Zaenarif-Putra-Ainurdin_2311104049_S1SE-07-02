@@ -5,9 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("=== [1] Menampilkan Parsing Data Mahasiswa ===");
-        var dataMahasiswa = new DataMahasiswa2311104049();
-        dataMahasiswa.ReadJSON();
+        Console.WriteLine("=== [2] Menampilkan Parsing Team Members Mahasiswa ===");
+        var teamMembers = new TeamMembers2311104049();
+        teamMembers.ReadJSON();
         Console.ReadLine();
     }
 }
