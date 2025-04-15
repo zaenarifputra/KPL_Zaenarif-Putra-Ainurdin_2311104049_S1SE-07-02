@@ -1,0 +1,48 @@
+{
+  "glossary": {
+    "title": "Advanced Glossary of Markup Languages",
+    "GlossDiv": {
+      "title": "Markup Concepts",
+      "GlossList": {
+        "GlossEntry": [
+          {
+            "ID": "SGML",
+            "SortAs": "SGML",
+            "GlossTerm": "Standard Generalized Markup Language",
+            "Acronym": "SGML",
+            "Abbrev": "ISO 8879:1986",
+            "GlossDef": {
+              "para": "A meta-markup language used to define markup languages. SGML is the parent of both HTML and XML.",
+              "GlossSeeAlso": [ "GML", "XML" ]
+            },
+            "GlossSee": "markup"
+          },
+          {
+            "ID": "XML",
+            "SortAs": "XML",
+            "GlossTerm": "Extensible Markup Language",
+            "Acronym": "XML",
+            "Abbrev": "W3C Recommendation",
+            "GlossDef": {
+              "para": "A flexible text format derived from SGML. XML is widely used for data exchange on the web.",
+              "GlossSeeAlso": [ "HTML", "XHTML" ]
+            },
+            "GlossSee": "markup"
+          },
+          {
+            "ID": "HTML",
+            "SortAs": "HTML",
+            "GlossTerm": "HyperText Markup Language",
+            "Acronym": "HTML",
+            "Abbrev": "HTML5",
+            "GlossDef": {
+              "para": "The standard markup language for creating web pages and applications. HTML defines the structure of web content.",
+              "GlossSeeAlso": [ "CSS", "JavaScript" ]
+            },
+            "GlossSee": "markup"
+          }
+        ]
+      }
+    }
+  }
+}
