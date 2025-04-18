@@ -18,7 +18,7 @@ class Program
         Console.WriteLine();
 
         Console.WriteLine("=== [3] Menampilkan Parsing Glossary Item Mahasiswa ===");
-        var glossaryItem = new GlossaryItem2311104049();  // Ganti variabel menjadi glossaryItem
+        var glossaryItem = new GlossaryItem2311104049();    
         glossaryItem.ReadJSON();
         Console.ReadLine();
     }
