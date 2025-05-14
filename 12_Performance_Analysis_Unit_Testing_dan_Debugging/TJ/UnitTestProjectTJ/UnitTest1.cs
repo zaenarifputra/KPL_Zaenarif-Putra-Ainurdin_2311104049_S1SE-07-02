@@ -2,41 +2,45 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tjmodul12_2311104049;
 
-namespace UnitTestProjectTJ
+namespace UnitTestPangkat
 {
     [TestClass]
     public class UnitTest1
     {
         [TestMethod]
-        public void TestPangkatPositif()
+        public void TestPangkatNormal()
         {
-            var form = new Form1();
-            int result = form.CariNilaiPangkat(2, 3);
-            Assert.AreEqual(8, result);
+            Assert.AreEqual(8, HitungHelper.CariNilaiPangkat(2, 3));
         }
 
         [TestMethod]
-        public void TestEksponenNol()
+        public void TestPangkat0()
         {
-            var form = new Form1();
-            int result = form.CariNilaiPangkat(5, 0);
-            Assert.AreEqual(1, result);
+            Assert.AreEqual(1, HitungHelper.CariNilaiPangkat(0, 0));
         }
 
         [TestMethod]
-        public void TestEksponenNegatif()
+        public void TestPangkatNegatif()
         {
-            var form = new Form1();
-            int result = form.CariNilaiPangkat(5, -3);
-            Assert.AreEqual(-1, result);
+            Assert.AreEqual(-1, HitungHelper.CariNilaiPangkat(3, -1));
         }
 
         [TestMethod]
-        public void TestInputMelebihiBatas()
+        public void TestBPangkatLebihDari10()
         {
-            var form = new Form1();
-            int result = form.CariNilaiPangkat(101, 2);
-            Assert.AreEqual(-2, result);
+            Assert.AreEqual(-2, HitungHelper.CariNilaiPangkat(2, 11));
+        }
+
+        [TestMethod]
+        public void TestANilaiLebihDari100()
+        {
+            Assert.AreEqual(-2, HitungHelper.CariNilaiPangkat(101, 2));
+        }
+
+        [TestMethod]
+        public void TestOverflow()
+        {
+            Assert.AreEqual(-3, HitungHelper.CariNilaiPangkat(99999, 10));
         }
     }
 }

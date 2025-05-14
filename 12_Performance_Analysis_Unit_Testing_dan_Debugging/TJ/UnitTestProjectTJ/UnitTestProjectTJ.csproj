@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{835FBD1D-C22B-4D74-BA93-E978FB2EE304}</ProjectGuid>
+    <ProjectGuid>{1136E345-EF72-4455-A5AE-45B115A5F157}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UnitTestProjectTJ</RootNamespace>
@@ -47,7 +47,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
@@ -58,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tjmodul12_2311104049\Tjmodul12_2311104049.csproj">
-      <Project>{6f66bfee-6145-4ac0-a537-f8a2c694e376}</Project>
+      <Project>{b62cd9d5-8f72-4f1c-ab78-30e564596951}</Project>
       <Name>Tjmodul12_2311104049</Name>
     </ProjectReference>
   </ItemGroup>

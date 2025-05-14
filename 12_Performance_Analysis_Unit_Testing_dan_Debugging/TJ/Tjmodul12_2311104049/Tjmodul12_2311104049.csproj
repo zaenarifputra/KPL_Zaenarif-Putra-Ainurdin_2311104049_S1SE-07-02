@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F66BFEE-6145-4AC0-A537-F8A2C694E376}</ProjectGuid>
+    <ProjectGuid>{B62CD9D5-8F72-4F1C-AB78-30E564596951}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Tjmodul12_2311104049</RootNamespace>
     <AssemblyName>Tjmodul12_2311104049</AssemblyName>
@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Form1.cs" />
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>

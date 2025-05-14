@@ -1,4 +1,6 @@
-﻿namespace Tjmodul12_2311104049
+﻿using System;
+
+namespace Tjmodul12_2311104049
 {
     partial class Form1
     {
@@ -83,6 +85,7 @@
             this.Controls.Add(this.txtBase);
             this.Name = "Form1";
             this.Text = "TJ MODUL 12";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -96,4 +99,3 @@
         private System.Windows.Forms.Label lblOutput;
     }
 }
-
