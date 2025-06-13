@@ -20,17 +20,17 @@ namespace tjmodul15_2311104049
 
         private void FormRegister_Load(object sender, EventArgs e)
         {
-            // Kosong atau bisa diisi inisialisasi
+            
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
-            // Optional: validasi live
+            
         }
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
-            // Optional: validasi live
+           
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
